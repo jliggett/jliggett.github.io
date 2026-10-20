@@ -284,6 +284,8 @@ code {
   line-height: 1.4;
 }
 .abstract-findings li + li { margin-top: .45rem; }
+.finding-link { color: var(--ink-3); font-size: var(--text-sm); }
+.finding-link:hover, .finding-link:focus-visible { color: var(--ink); }
 .abstract-close { margin-top: .9rem; }
 .opening-note { max-width: var(--measure); margin-top: 1.25rem; color: var(--ink-3); font-size: var(--text-sm); }
 
@@ -1360,10 +1362,10 @@ code {
     <span class="stale-flag">FY2026 (through 2026-10-16)</span>
     <span class="head-data">data through <time>2026-10-17T01:58:54Z</time></span>
 <a class="head-link" href="#index-of-the-document">Index</a>
-<span class="head-link head-link--frozen">Frozen <time datetime="2026-10-20T01:35:11Z">2026-10-20T01:35:11Z</time></span>
+<span class="head-link head-link--frozen">Frozen <time datetime="2026-10-20T01:54:12Z">2026-10-20T01:54:12Z</time></span>
   </header>
   <main id="main" class="document">
-<p class="snapshot-banner" role="note"><strong>Frozen reading.</strong> Generated <time datetime="2026-10-20T01:35:11Z">2026-10-20T01:35:11Z</time> from data through <time>2026-10-17T01:58:54Z</time>. This file is self-contained: no live queries, no scripts, and no notes from the margin. The data version and schema hash are in the colophon.</p>
+<p class="snapshot-banner" role="note"><strong>Frozen reading.</strong> Generated <time datetime="2026-10-20T01:54:12Z">2026-10-20T01:54:12Z</time> from data through <time>2026-10-17T01:58:54Z</time>. This file is self-contained: no live queries, no scripts, and no notes from the margin. The data version and schema hash are in the colophon.</p>
 <div class="report-layout">
 <nav class="toc" aria-label="Contents">
   <p class="toc-title">Contents</p>
@@ -1403,7 +1405,7 @@ code {
       <p class="subtitle">Mahoning County, Ohio: operating budget, checkbook, payroll, and revenue, FY2023–FY2026</p>
       <div class="abstract">
 <p class="lede">Mahoning County&#39;s records describe two separate corrections operations. The county jail houses detainees, and the revenue booked to its criminal-justice fund rose sharply after ICE intake began in spring 2025. The county pays its own staff and vendors for that work. The Northeast Ohio Correctional Center is a private federal-contract prison whose beds the county pays for through the U.S. Marshals Service IGA fund, with federal receipts on the other side. This report measures each facility on its own records. It finds:</p>        <ul class="abstract-findings">
-<li>The ICE-era increase in jail prisoner-housing receipts exceeds the recorded rise in jail operating cost.</li><li>The increase has been spent rather than reserved.</li><li>The IGA fund ran a small positive margin in FY2025 and is now paying out faster than it takes in.</li><li>Criminal-justice spending is about one-fifth of county operating spending on either of two overlapping measures.</li>        </ul>
+<li>The ICE-era increase in jail prisoner-housing receipts exceeds the recorded rise in jail operating cost. <a class="finding-link" href="#step-4"><span aria-hidden="true">→</span> What the jail returns</a></li><li>The increase has been spent rather than reserved. <a class="finding-link" href="#step-4"><span aria-hidden="true">→</span> What the jail returns</a></li><li>The IGA fund ran a small positive margin in FY2025 and is now paying out faster than it takes in. <a class="finding-link" href="#step-5"><span aria-hidden="true">→</span> NEOCC: the pass-through</a></li><li>Criminal-justice spending is about one-fifth of county operating spending on either of two overlapping measures. <a class="finding-link" href="#step-7"><span aria-hidden="true">→</span> The carceral share of the county budget</a></li>        </ul>
 <p class="lede abstract-close">Every figure is cited to the county dataset that produced it.</p>      </div>
       <p class="opening-note">9 sections. Each opens with a question; the prose and the chart answer it, and the branch points are the ways out. Every number opens to its definition and source.</p>
     </header>
@@ -6369,7 +6371,7 @@ Net spending labeled REDACTED VENDOR            <span class="index-meta">Any pub
       <div><dt>Generated</dt><dd><time>2026-10-16T23:05:00-04:00</time></dd></div>
       <div><dt>Model</dt><dd>deepseek-flash · report-dashboards@0.5.0</dd></div>
       <div><dt>Pattern language</dt><dd>report-dashboards 0.5.0</dd></div>
-      <div><dt>Schema hash</dt><dd><code>sha256:69567ca38fdb108add9fe4edaba2584893a6e8122ed78f40b8bec74ca9290e03</code></dd></div>
+      <div><dt>Schema hash</dt><dd><code>sha256:ca5cf607261998fa133860caad90bac1dea8b39f2507819c4e171ee91a82eabe</code></dd></div>
       <div><dt>Data source</dt><dd>db/mahoning.duckdb (gocryptfs vault, Pavilion)</dd></div>
       <div><dt>Data version</dt><dd>fetch manifest 2026-10-17T01:23:20Z through 2026-10-17T01:58:54Z</dd></div>
       <div><dt>Freshness</dt><dd>Loaded 2026-10-16; FY2026 checkbook, payroll, and revenue through 2026-10-16.</dd></div>
@@ -6381,14 +6383,14 @@ Net spending labeled REDACTED VENDOR            <span class="index-meta">Any pub
 </section>    <section class="print-only print-colophon" aria-label="Printed provenance">
       <h2>Printed reading</h2>
       <p>The County&#39;s Money · FY2023–FY2026. Source: db/mahoning.duckdb (gocryptfs vault, Pavilion). Reconciliation: docs/verification.md; v_reconciliation.</p>
-      <p>Generated <time>2026-10-16T23:05:00-04:00</time> · data version fetch manifest 2026-10-17T01:23:20Z through 2026-10-17T01:58:54Z · schema <code>sha256:69567ca38fdb108add9fe4edaba2584893a6e8122ed78f40b8bec74ca9290e03</code> · report <code>county-money</code>.</p>
+      <p>Generated <time>2026-10-16T23:05:00-04:00</time> · data version fetch manifest 2026-10-17T01:23:20Z through 2026-10-17T01:58:54Z · schema <code>sha256:ca5cf607261998fa133860caad90bac1dea8b39f2507819c4e171ee91a82eabe</code> · report <code>county-money</code>.</p>
       <p>Private margin notes are not printed. The full account is in <a href="#colophon">the colophon</a>.</p>
     </section>
     <p class="back-to-top"><a href="#top">Back to the opening</a></p>
   </article>
 </div>
 
-<script type="application/json" id="snapshot-meta">{"report": "county-money", "title": "The County's Money", "period": "FY2023–FY2026", "generated_at": "2026-10-20T01:35:11Z", "data_version": "fetch manifest 2026-10-17T01:23:20Z through 2026-10-17T01:58:54Z", "schema_hash": "sha256:69567ca38fdb108add9fe4edaba2584893a6e8122ed78f40b8bec74ca9290e03", "steps": [{"step": 1, "name": "Findings", "pattern": "the_question_that_opens"}, {"step": 2, "name": "Two facilities, two directions", "pattern": "branching_point"}, {"step": 3, "name": "What the jail costs", "pattern": "chart_as_sentence"}, {"step": 4, "name": "What the jail returns", "pattern": "chart_as_sentence"}, {"step": 5, "name": "NEOCC: the pass-through", "pattern": "chart_as_sentence"}, {"step": 6, "name": "The regional book", "pattern": "chart_as_sentence"}, {"step": 7, "name": "The carceral share of the county budget", "pattern": "chart_as_sentence"}, {"step": 8, "name": "The claim, tested", "pattern": "the_claim_tested"}, {"step": 9, "name": "What the records show", "pattern": "the_public_record"}], "unfold": null, "notes": "excluded"}</script>
+<script type="application/json" id="snapshot-meta">{"report": "county-money", "title": "The County's Money", "period": "FY2023–FY2026", "generated_at": "2026-10-20T01:54:12Z", "data_version": "fetch manifest 2026-10-17T01:23:20Z through 2026-10-17T01:58:54Z", "schema_hash": "sha256:ca5cf607261998fa133860caad90bac1dea8b39f2507819c4e171ee91a82eabe", "steps": [{"step": 1, "name": "Findings", "pattern": "the_question_that_opens"}, {"step": 2, "name": "Two facilities, two directions", "pattern": "branching_point"}, {"step": 3, "name": "What the jail costs", "pattern": "chart_as_sentence"}, {"step": 4, "name": "What the jail returns", "pattern": "chart_as_sentence"}, {"step": 5, "name": "NEOCC: the pass-through", "pattern": "chart_as_sentence"}, {"step": 6, "name": "The regional book", "pattern": "chart_as_sentence"}, {"step": 7, "name": "The carceral share of the county budget", "pattern": "chart_as_sentence"}, {"step": 8, "name": "The claim, tested", "pattern": "the_claim_tested"}, {"step": 9, "name": "What the records show", "pattern": "the_public_record"}], "unfold": null, "notes": "excluded"}</script>
   </main>
   <footer class="foot">
     <p>db/mahoning.duckdb (gocryptfs vault, Pavilion)</p>
